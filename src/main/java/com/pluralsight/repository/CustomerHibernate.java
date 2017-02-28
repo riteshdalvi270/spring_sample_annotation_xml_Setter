@@ -1,4 +1,4 @@
-package repository;
+package com.pluralsight.repository;
 
 /**
  * Created by ritesh on 2/18/17.

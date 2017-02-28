@@ -1,7 +1,6 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import service.CustomerService;
-import service.CustomerServiceImpl;
+import com.pluralsight.service.CustomerService;
 
 /**
  * Created by ritesh on 2/18/17.

@@ -1,10 +1,12 @@
-package repository;
+package com.pluralsight.repository;
 
-import object.CustomerObject;
+import com.pluralsight.object.CustomerObject;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created by ritesh on 2/18/17.
  */
+@Repository("customerRepository")
 public class CustomerHibernateImpl implements CustomerHibernate {
 
     final CustomerObject customer = new CustomerObject();
