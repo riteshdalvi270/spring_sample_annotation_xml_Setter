@@ -13,8 +13,13 @@ public class CustomerServiceImpl implements CustomerService {
     //@Autowired
     CustomerHibernate customerHibernate;
 
-    @Autowired
+    //@Autowired
     public void setCustomerHibernate(CustomerHibernate customerHibernate) {
+        this.customerHibernate = customerHibernate;
+    }
+
+    @Autowired
+    public CustomerServiceImpl(final CustomerHibernate customerHibernate) {
         this.customerHibernate = customerHibernate;
     }
 
